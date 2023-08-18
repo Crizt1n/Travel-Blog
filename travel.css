@@ -32,7 +32,7 @@
 .listitems{
    display: inline-block;
     margin: 10px 20px;
-    font-size: larger;
+    font-size: `larger;
 }
 /* links */
 .links{
@@ -79,7 +79,7 @@
 }
 
 /* button */
-.button button{
+.button button  {
     font-size: 30px;
     position:relative;
     border-radius: 30px;
@@ -87,7 +87,11 @@
     border: solid 1px black;
     font-family: 'Roboto Condensed', sans-serif;
     font: bolder;
+    text-decoration: none;
 }
+
+
+
 
 .button button:hover{
     background-color: rgb(0, 0, 0);
@@ -119,8 +123,8 @@
 }
 
 #carouselExampleCaptions{
-    width: 500px;
-    height: 300px;
+    width: 530px;
+    height: 358px;
     overflow: hidden;
     margin-left: 200px;
     
@@ -237,7 +241,7 @@
 }
 
 .button2{
-font-size: 25px;
+font-size: 22px;
 
 border-radius: 30px;
 color: rgb(0, 0, 0);
@@ -251,21 +255,21 @@ text-decoration: none;
 
 .button2:hover
 {
-    background-color: green;
+    background-color: hwb(120 0% 50%);
     opacity: 0.65;
     position: relative;
     color: rgb(255, 255, 255);
     transition: 0.3s;
-    font-size: 29px;
+    font-size: 25px;
     font: bolder;
     border-radius: 50px;
-    border: solid 2px black;
+   
 }
 
 
 #carouselExampleIndicators3{
     margin-left: 330px;
-    border: double 6px rgb(0, 0, 0);
+    border:groove 5px rgb(255, 238, 0);
 
 
 }
@@ -283,6 +287,8 @@ text-decoration: none;
 }
 
 
+/* contact section */
+
 .contactform{
     width: 40%;
     margin-left: 460px;
@@ -292,14 +298,6 @@ text-decoration: none;
  
     
 }
-
-
-
-
-
-
-
-
 
 
 footer{
