@@ -28,11 +28,11 @@
 .logo{
     width: 130px;
 }
-/* ;ist items  */
+/* list items  */
 .listitems{
    display: inline-block;
     margin: 10px 20px;
-    font-size: `larger;
+    font-size: x-large;
 }
 /* links */
 .links{
@@ -107,7 +107,7 @@
 /* about */
 .landingimage2{
     width: 100%;
-    height: 7563px;
+    height: 7689px;
     margin-top: 3px;
     opacity: 0.3;
     position:absolute;
@@ -121,6 +121,7 @@
     position:relative;
   
 }
+/* Bootstrap Styling */
 
 #carouselExampleCaptions{
     width: 530px;
