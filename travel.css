@@ -137,7 +137,7 @@ small{
 
 }
 .carousel-indicators{
-    height: 450px;
+    height: 0px;
     display: none;
 }
 
