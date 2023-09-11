@@ -23,31 +23,64 @@
 }
 .navbar{
     display: flex;
+    
+}
+
+.links{
+    border:  1px solid rgb(70, 143, 172);
+   border-radius: 15%;
 }
 
 .listitems, .links{
     display: inline-block;
    font-size: large;
+   padding: 10px;
+   
   
   
+}
+#head{
+    display: inline;
+   
+    padding: 5px;
+    
 }
 
 .logo{
     display: none;
 }
 
+center.mainhead{
+    margin-top: -15px;
+}
+
 .mainhead1{
     font-size: 50%;
     display: contents;
   
+   
+  
 }
-.mainhead:hover{
+
+.mainhead h4{
+    margin-top: 39px;
+}
+
+
+.mainhead1:hover{
     display: contents;
-    justify-content: center;
+
     width: 100%;
     transition: 0.5s;
+    padding: 10px;
+ 
+
+    font-size: 120px;
+   
 
 }
+
+
 
 
    /* About section */
@@ -196,9 +229,11 @@ small{
     font-size: x-large;
 }
 /* links */
+
 .links{
     text-decoration: none;
     color: black;
+   
 }
 
 .links:hover{
