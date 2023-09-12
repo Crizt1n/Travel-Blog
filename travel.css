@@ -63,7 +63,7 @@ center.mainhead{
 }
 
 .mainhead h4{
-    margin-top: 39px;
+    margin-top: 100px;
 }
 
 
@@ -78,6 +78,11 @@ center.mainhead{
     font-size: 120px;
    
 
+}
+
+.mainhead.hover{
+    display: contents;
+    width: 100px;
 }
 
 
@@ -268,7 +273,7 @@ small{
     color: white;
     border-radius:100%;
     transition: 0.8s;
-    font-size: 280px ;
+    font-size: 240px ;
     font-family: 'Roboto Condensed', sans-serif;
    
  
